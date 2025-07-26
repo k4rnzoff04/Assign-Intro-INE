@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&display=swap');
+@media screen and (max-width:360){
+    .nav-con{
+        padding: 0;
+        flex-direction: column;
+        height: auto;
+    }
+}
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+nav {
+    background-color: gray;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.menu li:hover {
+     background: #222;
+}
+
+.logo a {
+    font-size: 1.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+body {
+    background-color: white;
+    font-family: "Playpen Sans Thai", cursive;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+h3 {
+    color: black;
+    text-align: justify;
+    padding: 10px;
+    line-height: 20px;
+}
+
+p {
+    color: black;
+    text-align: justify;
+    padding: 10px;
+    line-height: 20px;
+    word-spacing: 10%;
+
+}
+
+.container-img {
+    display: flex;
+}
+
+.container-table {
+    padding: 30px;
+    margin-left: 120px;
+}
+
+
+.subject-table {
+    width: 80%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-left: 10%;
+}
+
+.subject-table th {
+    background-color: rgb(207, 207, 207);
+}
+
+.subject-table th,
+.subject-table td {
+    
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.col-code { width: 15%; }
+.col-section { width: 10%; }
+.col-name { width: 35%; }
+.col-credit { width: 10%; }
+.col-status { width: 30%; }
+
+
+
+img {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border-radius: 100rem;
+}
+
+header {
+    background-color: teal;
+}
+
