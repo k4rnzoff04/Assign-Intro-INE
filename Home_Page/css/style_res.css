@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap');
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 3px;
+}
+
+
+body{
+    font-family: "Pridi", serif;
+    font-weight: 400;
+    /* font-style: normal; */
+    margin: 0;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+ .navbar{
+    display: flex;
+    background-color: #333;
+}
+
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.side {
+    flex: 30%;
+    background: beige;
+    padding: 20px;
+}
+
+.fakeimg{
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    
+
+}
+
+.main{
+    flex: 70%;
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background: #333;
+}
+
+@media screen and (max-width:700px) {
+    .row, .navbar {
+        flex-direction: column;
+    }
+}
+
+
